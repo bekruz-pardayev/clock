@@ -1,0 +1,192 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: linear-gradient(
+    180deg,
+    #1d1e28 0.12%,
+    #261c2d 94.84%,
+    #261a2d 100%
+  );
+  font-family: "Red Hat Text", sans-serif;
+}
+.container {
+  max-width: 728px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.wrapper {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url("/src/img/bacground-img.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  h1 {
+    padding-top: 132px;
+    color: #fff;
+    text-align: center;
+    font-family: "Red Hat Text";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 7.5px;
+    text-transform: uppercase;
+    margin-bottom: 105px;
+  }
+  .hours {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 286px;
+    .days {
+      text-align: center;
+      .display {
+        width: 148px;
+        height: 150px;
+        background-color: #191a23;
+        overflow: hidden;
+        border-radius: 8px;
+        margin-bottom: 16px;
+        @media (max-width: 680px) {
+          width: 70px;
+          height: 70px;
+        }
+        .display-top {
+          width: 148px;
+          height: 70px;
+          border-radius: 8px 8px 0px 0px;
+          opacity: 0.55;
+          background: #343650;
+          margin-bottom: 2px;
+          display: flex;
+          overflow: hidden;
+          text-align: center;
+          @media (max-width: 680px) {
+            width: 70px;
+            height: 33px;
+          }
+          p {
+            position: relative;
+            top: 35px;
+            right: 12px;
+            color: #fb5e84;
+            font-size: 80px;
+            line-height: 71px;
+            letter-spacing: -2.4px;
+            margin: 0 auto;
+            @media (max-width: 680px) {
+              font-size: 36px;
+              position: relative;
+              top: 0;
+            }
+          }
+          .circle {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background-color: #191a23;
+            position: relative;
+            top: 63px;
+            right: 5px;
+            @media (max-width: 680px) {
+              width: 6px;
+              height: 6px;
+              top: 30px;
+              right: 3px;
+            }
+          }
+          .one {
+            position: relative;
+            left: 130px;
+            @media (max-width: 680px) {
+              left: 60px;
+            }
+          }
+        }
+        .display-button {
+          width: 148px;
+          height: 70px;
+          border-radius: 0px 0px 8px 8px;
+          background: #343650;
+          display: flex;
+          overflow: hidden;
+          text-align: center;
+          @media (max-width: 680px) {
+            width: 70px;
+            height: 33px;
+          }
+          p {
+            position: relative;
+            margin: 0 auto;
+            right: 12px;
+            bottom: 36px;
+            color: #fb5e84;
+            font-size: 80px;
+            font-weight: 700;
+            line-height: 71px;
+            letter-spacing: -2.4px;
+            @media (max-width: 680px) {
+              font-size: 36px;
+              position: relative;
+              bottom: 36px;
+            }
+          }
+          .circle-button1 {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background-color: #191a23;
+            position: relative;
+            bottom: 5px;
+            right: 5px;
+            @media (max-width: 680px) {
+              width: 6px;
+              height: 6px;
+              bottom: 3px;
+              right: 3px;
+            }
+          }
+          .circle-button2 {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background-color: #191a23;
+            position: relative;
+            bottom: 5px;
+            left: 130px;
+            @media (max-width: 680px) {
+              width: 6px;
+              height: 6px;
+              left: 60px;
+              bottom: 3px;
+            }
+          }
+        }
+      }
+      p {
+        color: #8385a9;
+        font-size: 14px;
+        font-weight: 700;
+        letter-spacing: 5.919px;
+        @media (max-width: 680px) {
+          font-size: 7px;
+          letter-spacing: 2.959px;
+        }
+      }
+    }
+  }
+  .footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .social-media {
+      width: 136px;
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+}
